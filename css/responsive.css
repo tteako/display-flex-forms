@@ -29,6 +29,7 @@
 		font-size: 15px;
 	}
 	.nav-ul {
+		display: flex;
 		flex-direction: column;
 	}
 }
