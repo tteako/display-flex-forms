@@ -1,6 +1,4 @@
-/*.icon-logo {
-  content: "\e900";
-}*/
+
 
 /* Header */
 .header-wrapper {
@@ -25,6 +23,9 @@
 }
 .nav-li {
 	margin-right: 53px;
+}
+.bars {
+	display: none;
 }
 
 /* Banner */

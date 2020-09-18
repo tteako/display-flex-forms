@@ -1,18 +1,42 @@
 @media (max-width: 768px) {
-	.nav-li {
-		font-size: 18px;
+.nav-li {
+		font-size: 13px;
+		margin-top: 5px;
 	}
-	.form  {
-		font-size: 18px;
+.search {
+		margin-top: 10px;
 	}
-	.contact p {
-       font-size: 15px;
+.form  {
+		font-size: 13px;
+	}
+.form-index {
+	padding: 15px;
+}
+.contact p {
+       font-size: 12px;
 	}
 	.address p {
-		font-size: 15px;
+		font-size: 12px;
 	}
 	.banner {
 		padding: 0px 20px 0px 20px;
+	}
+	.logo2 {
+		display: none;
+	}
+	.footer-wrapper {
+		flex-direction: column;
+		align-items: flex-start;
+		padding: 0px 0px 15px 15px;
+
+	}
+	.address {
+		margin: 15px 0px 15px 0px;
+
+	}
+	.nav-ul {
+		flex-direction: column;
+		align-items: center;
 	}
 }
 @media (max-width: 480px) {
@@ -32,4 +56,41 @@
 		display: flex;
 		flex-direction: column;
 	}
+	.navigation {
+		display: none;
+	}
+	.bars {
+		display: block;
+		width: 20px;
+		
+	}
+	.logo {
+		width: 100px;
+	}
+}
+@media (max-width: 320px) {
+	.logo {
+		width: 70px;
+	}
+	.bars {
+		width: 16px;
+	}
+	.contact p {
+       font-size: 8px;
+	}
+	.address p {
+		font-size: 8px;
+	}
+	.contact h5 {
+       font-size: 9px;
+	}
+	.address h6 {
+		font-size: 9px;
+	}
+	label {
+		font-size: 10px;
+	}
+	.input-type::placeholder {
+	font-size: 10px;
+}
 }
