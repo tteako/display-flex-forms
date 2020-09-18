@@ -2,13 +2,87 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<script src="https://kit.fontawesome.com/6de6aa5275.js" crossorigin="anonymous"></script>
+	<!-- <script src="https://kit.fontawesome.com/6de6aa5275.js" crossorigin="anonymous"></script> -->
 	<title> Display Flex with Forms </title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 </head>
 <body>
+	<header class="header-wrapper">
+		<img src="img/logo.svg" alt="logo" class="logo">
+		<!-- <div>
+			<i class="icon-logo"></i>
+	    </div> -->
+	   
+			<nav class="navigation">
+				<ul class="nav-ul">
+					<li class="nav-li"> პროექტის შესახებ </li>
+					<li class="nav-li"> მოთხოვნა </li>
+					<li class="nav-li"> EXPLORE </li>
+					<li class="nav-li"> შესვლა </li>
+					<img src="img/search.svg" alt="search">
+					
 
+				</ul>
+			</nav>
+		
+	</header>
+	<div class="banner">
+		<img src="img/map.jpg" alt="banner" class="banner-img">
+	</div>
+
+	<section>
+		<form action="/action_page.php" class="form-index">
+			<div class="form">
+				<label for="fname"> Name </label>
+		        <input type="text" id="fname" name="fname" size="50" placeholder="...type your name" class="input-type">
+	     	</div>
+	     	<div class="form">
+		        <label for="email"> E-mail </label>
+		        <input type="email" id="email" name="email" size="50" placeholder="...type your e-mail" class="input-type">
+	    	</div>
+	    	<div class="form">
+		        <label for="subject"> Subject </label>
+		        <input type="text" id="subject" name="subject" size="50" placeholder="...type the mail subject" class="input-type">
+		    </div>
+		    <div class="textarea-wrapper">
+		        <label for="message"> Message </label>
+		        <input type="textarea" id="message" name="message" size="50" class="textarea">
+	    	</div>
+	    	<div class="form-button">
+	        	<button type="submit" value="Submit" class="button">Send</button>
+	   		 </div>
+	    </form>
+
+	</section>
+
+	<footer class="footer-wrapper">
+		<div class="logo2">
+			<img src="img/logo2.svg" alt="logo" class="logo2">
+		</div>
+		<div class="contact">
+			<h5>კონტაქტი</h5>
+			<p>+995 0322 38 08 02</p>
+			<p>info@lucapolare.com</p>
+		
+		</div>
+		<div class="address">
+			<h5> მისამართი:</h5>
+			<p>მერაბ ალექსიძის ქუჩა 10. თბილისი</p>
+		</div>
+		
+		<div class="social">
+			<div>
+				<img src="img/facebook.svg">
+			</div>
+		
+			<div>
+				<img src="img/instagram.svg">
+			</div>
+		</div>
+	</footer>
+	
 </body>
 </html>
