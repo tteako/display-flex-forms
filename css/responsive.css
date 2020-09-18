@@ -28,4 +28,7 @@
 	.address p {
 		font-size: 15px;
 	}
+	.nav-ul {
+		flex-direction: column;
+	}
 }
