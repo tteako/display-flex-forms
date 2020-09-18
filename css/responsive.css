@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+	.nav-li {
+		font-size: 18px;
+	}
+	.form  {
+		font-size: 18px;
+	}
+	.contact p {
+       font-size: 15px;
+	}
+	.address p {
+		font-size: 15px;
+	}
+}
